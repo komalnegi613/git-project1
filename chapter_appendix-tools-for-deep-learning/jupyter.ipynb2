@@ -1,0 +1,120 @@
+{
+  "cells": [
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "W28PDBVWwe4o"
+      },
+      "id": "W28PDBVWwe4o",
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "def is_palindrome(text):\n",
+        "  text= str(text),lower()"
+      ],
+      "metadata": {
+        "id": "E3s4UI1ewe_o"
+      },
+      "id": "E3s4UI1ewe_o",
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "def is_palindrome(text):\n",
+        "\n",
+        "a= \"madam\"\n",
+        "b= \"madam\"\n",
+        "b==a"
+      ],
+      "metadata": {
+        "id": "ocrz9o9NwfGK",
+        "outputId": "ddb8a657-6913-4374-d601-3bdb5b29b4d1",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
+      },
+      "id": "ocrz9o9NwfGK",
+      "execution_count": 5,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "True"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 5
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "def function(a):\n",
+        "  \"This function is designed for string palindrome\"\n",
+        "  if a==a[::-1]:\n",
+        "    return a[::-1]\n",
+        "    print(\"yes it is palindrome\")\n",
+        "  else:\n",
+        "    print(\"given string is not a palindrome\")"
+      ],
+      "metadata": {
+        "id": "gSkGS7263s-o"
+      },
+      "id": "gSkGS7263s-o",
+      "execution_count": 9,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "function1(\"racecar\")"
+      ],
+      "metadata": {
+        "id": "rfvkabZn5WQ6",
+        "outputId": "dedafa5c-f09c-4f6a-aa7a-b8c874bce9c0",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 141
+        }
+      },
+      "id": "rfvkabZn5WQ6",
+      "execution_count": 10,
+      "outputs": [
+        {
+          "output_type": "error",
+          "ename": "NameError",
+          "evalue": "name 'function1' is not defined",
+          "traceback": [
+            "\u001b[0;31m---------------------------------------------------------------------------\u001b[0m",
+            "\u001b[0;31mNameError\u001b[0m                                 Traceback (most recent call last)",
+            "\u001b[0;32m/tmp/ipython-input-792158948.py\u001b[0m in \u001b[0;36m<cell line: 0>\u001b[0;34m()\u001b[0m\n\u001b[0;32m----> 1\u001b[0;31m \u001b[0mfunction1\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m\"racecar\"\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m",
+            "\u001b[0;31mNameError\u001b[0m: name 'function1' is not defined"
+          ]
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "kernelspec": {
+      "display_name": "Python 3",
+      "name": "python3"
+    },
+    "language_info": {
+      "name": "python"
+    },
+    "required_libs": [],
+    "colab": {
+      "provenance": []
+    }
+  },
+  "nbformat": 4,
+  "nbformat_minor": 5
+}
